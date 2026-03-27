@@ -1,1 +1,113 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Berita - MataTelinga</title>
+  <meta name="description" content="Halaman berita terbaru MataTelinga." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a href="/" class="logo">MataTelinga</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/berita/" class="active">Berita</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Berita Terbaru</h1>
+      <p>Ikuti update berita pilihan dengan tampilan ringan dan cepat untuk GitHub Pages.</p>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Cari judul berita..." />
+      </div>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">Semua</button>
+        <button class="filter-btn" data-category="politik">Politik</button>
+        <button class="filter-btn" data-category="teknologi">Teknologi</button>
+        <button class="filter-btn" data-category="olahraga">Olahraga</button>
+        <button class="filter-btn" data-category="hiburan">Hiburan</button>
+      </div>
+    </div>
+  </section>
+
+  <main class="container main-content">
+    <div class="news-grid" id="newsGrid">
+      <article class="news-card" data-category="politik">
+        <img src="./assets/thumb1.jpg" alt="Berita Politik" />
+        <div class="news-content">
+          <span class="badge">Politik</span>
+          <h2><a href="./posts/artikel-1.html">Judul Berita Politik Terbaru Hari Ini</a></h2>
+          <p>Ringkasan singkat berita politik yang bisa kamu ganti sesuai kebutuhan website.</p>
+          <div class="meta">Dipublikasikan: 27 Maret 2026</div>
+        </div>
+      </article>
+
+      <article class="news-card" data-category="teknologi">
+        <img src="./assets/thumb2.jpg" alt="Berita Teknologi" />
+        <div class="news-content">
+          <span class="badge">Teknologi</span>
+          <h2><a href="./posts/artikel-2.html">Inovasi Teknologi yang Sedang Jadi Sorotan</a></h2>
+          <p>Ringkasan berita teknologi yang tampil rapi dan cocok untuk homepage kategori berita.</p>
+          <div class="meta">Dipublikasikan: 27 Maret 2026</div>
+        </div>
+      </article>
+
+      <article class="news-card" data-category="olahraga">
+        <img src="./assets/thumb3.jpg" alt="Berita Olahraga" />
+        <div class="news-content">
+          <span class="badge">Olahraga</span>
+          <h2><a href="./posts/artikel-3.html">Pertandingan Besar dan Hasil yang Menarik</a></h2>
+          <p>Isi singkat berita olahraga yang bisa kamu tampilkan untuk memperkuat halaman kategori.</p>
+          <div class="meta">Dipublikasikan: 27 Maret 2026</div>
+        </div>
+      </article>
+
+      <article class="news-card" data-category="hiburan">
+        <img src="./assets/thumb1.jpg" alt="Berita Hiburan" />
+        <div class="news-content">
+          <span class="badge">Hiburan</span>
+          <h2><a href="#">Film dan Selebriti yang Sedang Ramai Dibahas</a></h2>
+          <p>Konten hiburan dengan gaya card modern dan mudah dibaca di desktop maupun mobile.</p>
+          <div class="meta">Dipublikasikan: 27 Maret 2026</div>
+        </div>
+      </article>
+
+      <article class="news-card" data-category="politik">
+        <img src="./assets/thumb2.jpg" alt="Berita Nasional" />
+        <div class="news-content">
+          <span class="badge">Politik</span>
+          <h2><a href="#">Perkembangan Isu Nasional yang Perlu Dicermati</a></h2>
+          <p>Kamu bisa tambah lebih banyak card berita tanpa perlu ubah struktur utama halaman.</p>
+          <div class="meta">Dipublikasikan: 27 Maret 2026</div>
+        </div>
+      </article>
+
+      <article class="news-card" data-category="teknologi">
+        <img src="./assets/thumb3.jpg" alt="Update Teknologi" />
+        <div class="news-content">
+          <span class="badge">Teknologi</span>
+          <h2><a href="#">Platform Digital dan Perubahan Gaya Hidup Modern</a></h2>
+          <p>Template ini cocok untuk berita umum, portal media kecil, atau halaman kategori khusus.</p>
+          <div class="meta">Dipublikasikan: 27 Maret 2026</div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 MataTelinga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
